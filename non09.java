@@ -2,7 +2,7 @@ public class non09
 {
     public static void main(String den[])
     {
-        int non=6;
+        int non=5;
         for(int i=1;i<=non;i++)
 	{
             for(int j=1;j<i;j++)

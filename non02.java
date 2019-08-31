@@ -1,16 +1,19 @@
-public class non02
+public class non02 
 {
     public static void main(String den[])
     {
-        int non=5;
-        for(int i=1;i<non;i++)
+        int non=4;
+        for(int i=1;i<=non;i++)
 	{
-            System.out.print(i+""+(i+4));
-            for(int j=1;j<=i+4;j++)
+            for(int j=i;j<=i+2;j++)
+	    {
+                System.out.print(j);
+            } 
+            for(int j=1;j<=i+1;j++)
 	    {
                 System.out.print("*");
             }
             System.out.println("");
-        }       
+        }
     }
 }

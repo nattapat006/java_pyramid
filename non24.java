@@ -14,6 +14,7 @@ public class non24
 	    {
                 System.out.print(i);
             }
+	    System.out.print(i);
             System.out.println();
         }
     }

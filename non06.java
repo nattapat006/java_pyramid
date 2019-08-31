@@ -1,18 +1,17 @@
-public class non06 
+public class non06
 {
     public static void main(String den[])
     {
         int non=7;
-        for(int i=1;i<=non;i++)
-	{
-            for(int j =1;j<i;j++)
+        for(int i=non;i>=1;i--)
+        { 
+            for(int j=non;j>i;j--)
 	    {
                 System.out.print(" ");
             }
-            System.out.print(i+""+(i+1)+""+(i+2));
-            for(int j=0;j<=i;j++)
+            for(int j=1;j<=i*2-1;j++)
 	    {
-                System.out.print("*");
+                System.out.print((j%2));
             }
             System.out.println();
         }
