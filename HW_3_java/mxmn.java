@@ -3,7 +3,7 @@ public class mxmn
 	public static void main(String non[]) 
 	{
 
-		int nn[]={5,10,15,20,55,2,84};
+		int nn[]={10,10,30,40,50,60,70};
 		int max=0;
 		int min=999;
 		int total=0;
